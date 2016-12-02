@@ -1,11 +1,5 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-'''
-Created on Sun Oct 25 13:19:22 2015
-@author:    Sebastian Mey, Institut für Kernphysik, Forschungszentrum Jülich
-            s.mey@fz-juelich.de
-'''
-
 import getopt, math, sys, os
 from cycler import cycler
 from mpl_toolkits.mplot3d import axes3d

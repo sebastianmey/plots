@@ -1,11 +1,5 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-'''
-Created on Mo Jan 04 08:06:22 2015
-@author:    Sebastian Mey, Institut für Kernphysik, Forschungszentrum Jülich
-            s.mey@fz-juelich.de
-'''
-
 import getopt, math, os, sys, subprocess
 from lmfit import Model, Parameters
 import matplotlib.pyplot as plt

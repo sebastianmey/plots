@@ -1,12 +1,5 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-'''
-Created on Sun Oct 25 13:19:22 2015
-
-@author:    Sebastian Mey, Institut für Kernphysik, Forschungszentrum Jülich GmbH            
-            s.mey@fz-juelich.de
-'''
-
 import getopt, math, sys, os#, subprocess, ROOT
 from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt

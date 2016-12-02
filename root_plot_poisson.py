@@ -1,11 +1,11 @@
 #!/usr/bin/python
-"""AUTOMESH,POISSON,WSFPLOT, put out Grid file and plot fields and Lorentz Force in ROOT"""
-
 import getopt, sys, os, subprocess, math, ROOT
 
 def usage():
     """Usage function"""
-    print("""Usage: %s -B <B-field .am file> -E <E-field .am file> -g [\"x_start y_start, x_end y_end\"] -n -p
+    print("""AUTOMESH,POISSON,WSFPLOT, put out Grid file and plot fields and Lorentz Force in ROOT
+
+Usage: %s -B <B-field .am file> -E <E-field .am file> -g [\"x_start y_start, x_end y_end\"] -n -p
 
 -h    Show this help message and exit
 -g    interpolation grid start and end coordinates in units of mm. Please mind the quotation marks!
